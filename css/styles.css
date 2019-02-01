@@ -241,6 +241,12 @@ color: #949492;
 	margin: 40px auto 0 auto;
 }
 	
+	
+#content {
+	width: 320px;
+	
+	}
+	
 #curtain {
 	position:fixed;
 	top:0;
