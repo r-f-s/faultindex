@@ -1,0 +1,233 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+body {
+	font-family: SabonLTPro-Roman;
+}
+
+
+h1 {
+	font-family: SabonLTPro-Italic;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight:100;
+}
+
+#main {
+	width: 700px;
+	margin: 15% auto 0 auto;
+}
+
+header {
+	width:100%;
+	margin-bottom: 20px;
+}
+
+
+#logo {
+	width:340px;
+	padding:0 auto;
+}
+
+#logo>h1 {
+	width:300px;
+	text-align: center;
+	margin: 10px auto;
+}
+
+#logo>hr {
+	margin-top:30px;
+}
+
+.logo {
+	width:300px;
+	margin-left:20px;
+}
+
+#leftContent {
+	float:left;
+	width: 340px;
+	padding:0;
+	
+}
+
+hr {
+	width: 100%;
+	size: 1px;
+	margin: 0;
+}
+
+p {
+	font-size:1em;
+	line-height:1.6em;
+
+}
+
+
+#rightContent {
+	float: right;
+	width: 320px;
+	padding:0;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.button>p {
+	width:100%;
+	text-align:center;
+	font-family: SabonLTPro-Italic;
+	text-transform:uppercase;
+	letter-spacing: 2px;
+	font-size: 1em;
+	display:block;
+	margin: 20px auto;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border: .5px solid black;
+}
+
+.buttonBlack {
+	background-color:black;
+	color:white;
+}
+.hide {
+	display:none;
+}
+
+.clearfix {
+	clear:both
+}
+
+#footer {
+	margin-top:30px;
+}
+
+#footer>p{
+	margin-top:30px;
+	font-size: .8em;
+}
+
+
+/*TERMS AND CONDITIONS*/
+#column {
+	width: 340px;
+	margin: 280px auto 0 auto;
+}
+
+#termsHeader {
+	position:fixed;
+	top: 0;
+	background-color:white;
+}
+
+#policy {
+	height:90%;
+	overflow:scroll;
+}
+
+.back {
+	margin-top:30px;
+	margin-bottom:40px;
+	width:340px;
+}
+
+.back:active {
+	background-color: black;
+}
+
+#returnToHome {
+	padding-top:20px;
+	text-transform: uppercase;
+	font-family: SabonLTPro-Italic;
+}
+
+/************************ !!!MOBILE!!! ************************/
+
+@media (min-width: 360px) and (max-width: 720px){
+	#main {
+	width: 340px;
+	margin: 15% auto 0 auto;
+	}
+	
+	#leftContent, #rightContent {
+	margin: 0 auto;
+	width: 300px;
+	padding:0 auto;
+	float:none;
+}
+
+#logo {
+	width:300px;
+	padding:0 auto;
+	margin: 0 auto;
+}
+
+#logo>h1 {
+	width:300px;
+	text-align: center;
+	margin: 10px auto;
+}
+
+#logo>hr {
+	margin-top:30px;
+}
+
+.logo {
+	width:300px;
+	margin: 0 0 10px 0;
+}
+
+.button>a {
+	width:100%;
+	text-align:center;
+	font-family: SabonLTPro-Italic;
+	text-transform:uppercase;
+	letter-spacing: 2px;
+	font-size: 1em;
+	display:block;
+	margin: 20px auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: .5px solid black;
+}
+	
+	.button>a:active {
+		background-color: black;
+	}
+	
+
+	#footer {
+	margin:30px auto 0 auto;
+	width:300px;
+}
+	
+	#footer>p{
+	margin-top:30px;
+	font-size: .7em;
+}
+	
+#column {
+	width: 300px;
+	margin: 260px auto 0 auto;
+	
+}
+	
+.back {
+	margin-top:20px;
+	margin-bottom:32px;
+	width:300px;
+}
+	
+	#returnToHome {
+	padding-top:20px;
+	margin-bottom:80px;
+	text-transform: uppercase;
+	font-family: SabonLTPro-Italic;
+}
+	
+}
