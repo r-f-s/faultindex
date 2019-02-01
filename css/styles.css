@@ -188,7 +188,7 @@ input {
 	background-color: rgb(233,233,229);
 	border: 1px solid #949492;
 	margin: 5px auto;
-	padding:4px 0 4px 4px;
+	padding:4px 0 4px 10px;
 	font-size: .9em;
 }
 
@@ -212,7 +212,7 @@ mc-embedded-subscribe, .button {
 	font-family: SabonLTPro-Italic, SabonMT-Italic,  Garamond, Baskerville, serif;
 	font-style: italic;
 	font-size: .9em;
-	padding-left: 10px;
+	padding-left: 4px;
 }
 
 #mce-NAME:-ms-input-placeholder, #mce-EMAIL:-ms-input-placeholder { /* Internet Explorer 10-11 */
@@ -220,6 +220,8 @@ color: #949492;
 	opacity: 1;
 	font-family: SabonLTPro-Italic, SabonMT-Italic,  Garamond, Baskerville, serif;
 	font-style: italic;
+	font-size: .9em;
+	padding-left: 4px;
 }
 
 #mce-NAME::-ms-input-placeholder, #mce-EMAIL::-ms-input-placeholder { /* Microsoft Edge */
@@ -227,6 +229,8 @@ color: #949492;
 	opacity: 1;
 	font-family: SabonLTPro-Italic, SabonMT-Italic,  Garamond, Baskerville, serif;
 	font-style: italic;
+	font-size: .9em;
+	padding-left: 4px;
 }
 
 
